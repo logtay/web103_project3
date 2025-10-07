@@ -2,7 +2,7 @@
 
 Submitted by: **Taylor Femat**
 
-About this web app: **App description here**
+About this web app: **This application caters to music lovers in the San Diego area. From the main page, users can select a venue that they are interested in. Each venue has its own page, where users can see events that are coming soon to that location. Additionally, using the Events page, the user can see all events at all locations. They can also filter by location to see relevant events. Each event has a title and lists the date and time of the event.**
 
 Time spent: **10** hours
 

@@ -3,10 +3,9 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"cd client && vite\" \"cd server && nodemon server\"",
-   "reset": "node server/config/reset.js",
-  "start": "npm run reset && nodemon server/server.js",
+    "reset": "node server/config/reset.js",
+    "start": "npm run reset && nodemon server/server.js",
     "build": "cd client && vite build"
-    
   },
   "dependencies": {
     "@picocss/pico": "^1.5.7",
@@ -18,7 +17,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.9.0",
-    "serve-favicon": "^2.5.0"
+    "react-slick": "^0.31.0",
+    "serve-favicon": "^2.5.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

@@ -1,10 +1,13 @@
+
 .app {
-    background: url('./assets/unitygrid.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    min-height: 100vh;
+    background: linear-gradient(160deg, #f7f1e0, #f2c77f, #d97e4d); 
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
 }
+
 
 header {
     padding: 50px;
@@ -13,21 +16,46 @@ header {
     justify-content: space-between;
 }
 
+
 .main-header {
     height: 30vh;
     width: 85vw;
+    display: flex;
     align-items: flex-end;
     position: relative;
     z-index: 1;
 }
+.main-header h1 {
+    font-family: 'Special Elite', cursive;
+    color: #5c3a21; 
+    margin: 0;
+    font-size: 3.5rem; 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+}
+
 
 .header-buttons {
-    width: 30%;
+    width: 40%;
     display: flex;
     justify-content: space-around;
 }
 
-.header-buttons button {
-    margin-right: 20px;
-    margin-left: 20px;
+.header-buttons {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start; 
+    gap: 10px; 
+}
+
+
+.header-buttons a:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+    transform: scale(1.05);
+}
+
+main {
+    flex: 1;
+    width: 85vw;
+    margin: 0 auto;
+    padding-bottom: 50px;
 }

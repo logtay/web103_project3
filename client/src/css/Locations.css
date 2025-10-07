@@ -1,59 +1,58 @@
-.available-locations {
-    display: flex;
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
+.locations-page {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.locations-page h1 {
+  font-family: 'Special Elite', cursive;
+  color: #5c3a21;
+  font-size: 3em;
+  margin-bottom: 40px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+
 }
 
-svg {
-    position: absolute;
-    top: -1px;
-    left: 0;
-    width: 100%;
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 40px;
+  justify-items: center;
+  padding: 50px;
+  background: rgba(255, 248, 240, 0.6);
+  border-radius: 20px;
 }
 
-svg polygon {
-    fill: transparent;
-    cursor: pointer;
+.location-card {
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none;
+  color: inherit;
+  width: 800px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  background: #fff8f0;
 }
 
-svg polygon:hover {
-    fill: rgba(55, 216, 232, 0.2);
+.location-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
 }
 
-.venue1-button-overlay {
-    opacity: 0;
-    z-index: 10;
-    position: relative;
-    top: 15%;
-    left: -5%;
+.location-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
 }
 
-.venue2-button-overlay {
-    opacity: 0;
-    z-index: 10;
-}
-
-.venue3-button-overlay {
-    opacity: 0;
-    z-index: 10;
-    position: relative;
-    left: 30%;
-}
-
-.venue4-button-overlay {
-    opacity: 0;
-    z-index: 10;
-    position: relative;
-    top: 20%;
-    left: -5%;
-}
-
-.venue1-button-overlay button,
-.venue2-button-overlay button,
-.venue3-button-overlay button,
-.venue4-button-overlay button {
-    width: 200px;
-    text-transform: uppercase;
-    font-weight: 700;
+.location-card h3 {
+  margin: 12px 0;
+  font-family: 'Special Elite', cursive;
+  font-size: 1.6em;
+  color: #5c3a21;
 }

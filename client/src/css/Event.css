@@ -1,17 +1,21 @@
+
 .event-information {
     position: relative;
     width: 350px;
     height: 350px;
     padding: 0px;
     margin: 20px;
-    border: 2px solid white;
-    border-radius: 0px;
+    border: 2px solid #d9c4a9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: #f7f1e0;
 }
 
 .event-information img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .event-information-overlay {
@@ -19,11 +23,12 @@
     bottom: 0;
     left: 100%;
     right: 0;
-    background-color: var(--primary);
+    background: linear-gradient(135deg, #c36a2d, #f7b267); 
     overflow: hidden;
     width: 0;
     height: 100%;
     transition: 0.5s ease;
+    border-radius: 8px;
 }
 
 .event-information:hover .event-information-overlay {
@@ -33,10 +38,11 @@
 
 .text {
     position: absolute;
-    overflow: hidden;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff9f0; 
 }
 
 .text i {
@@ -44,14 +50,9 @@
 }
 
 .text p {
-    color: white;
     margin-top: 10px;
+    font-weight: 500;
+    font-size: larger;
 }
 
-.negative-time-remaining {
-    background-color: red;
-    color: white;
-    font-weight: 700;
-    padding: 10px;
-    text-align: center;
-}
+

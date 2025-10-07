@@ -40,15 +40,12 @@ Here's a walkthrough of implemented required features:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with [Kap](https://getkap.co/) for macOS
+
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+It did take me a while to get my tables to populate in Render. Even having gone over the lab and getting that to work more than once, I did have to restart this project a few times. I am not sure if there was a minor typo or something that was causing errors. I really struggled to find the source of my issue, even using dev tools. In the end I just started over until I got it right. This took up a lot of time on the project. Another area where I struggled was working with the front end. I spent a lot of time trying to do my own visual interface with the polygons like the example, but I wasn't familiar with it so it wasn't something that I could really get to work in a way that I liked. In the end I made my own visual interface. I think if I would have had more time I would have been able to create a more robust front end, but I ran out of time in the end. I think having so much of the layout was sort predetermined, unlike previous projects, made it harder for me to make it my own which is something I really enjoyed about other projects. 
 
 ## License
 
